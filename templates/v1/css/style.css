@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     z-index: 5;
-    padding: 10px;
+    padding: 20px 10px;
     background-color: #fff
 }
 .site-w {
@@ -183,9 +183,10 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 31px;
+    line-height: 37px;
     font-weight: 900;
+    letter-spacing: 1px;
     margin-bottom: 20px;
     color: var(--primary)
 }
@@ -194,16 +195,21 @@
     color: var(--secondary)
 }
 
+.sologan-desc {
+    margin-bottom: 25px;
+}
+
 .welcome-text span {
     position: relative;
     font-weight: bold;
+    padding-bottom: 3px;
     font-size: 17px;
 }
 
 .welcome-text span::after {
     content: "";
     position: absolute;
-    height: 3px;
+    height: 2px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -373,6 +379,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 45px;
+    margin-top: 35px;
     color: #fff;
 }
 
@@ -415,6 +422,10 @@
     margin-top: 25px;
     font-size: 21px;
     border-radius: 3px;
+}
+
+.contact-text a:hover {
+    background-color: var(--secondary)
 }
 
 

@@ -11,7 +11,7 @@ $v = time()
     <link rel="stylesheet" type="text/css"  href="templates/v1/css/guide.css?v=<?= $v ?>"/>
     <link rel="stylesheet" type="text/css"  href="templates/v1/css/style.css?v=<?= $v ?>"/>
     <link rel="stylesheet" type="text/css"  href="templates/v1/css/responsive.css?v=<?= $v ?>" />
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet"> 
 
     <title>Pana Motion</title>
 </head>
