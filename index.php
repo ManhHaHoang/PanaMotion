@@ -10,13 +10,15 @@ $v = time()
     <link type="image/x-icon" rel="shortcut icon" sizes="16x16" href="images/favicon.png"/>
     <link rel="stylesheet" type="text/css"  href="templates/v1/css/guide.css?v=<?= $v ?>"/>
     <link rel="stylesheet" type="text/css"  href="templates/v1/css/style.css?v=<?= $v ?>"/>
+    <link rel="stylesheet" type="text/css"  href="templates/v1/css/home.css?v=<?= $v ?>"/>
     <link rel="stylesheet" type="text/css"  href="templates/v1/css/responsive.css?v=<?= $v ?>" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 
     <title>Pana Motion</title>
 </head>
 <body id="main-body">
     <?php include 'common/header.php'; ?>
+    <?php include 'common/banner.php'; ?>
     <div class="site-w">
         <div class="sologan">
             <div class="welcome-text">
